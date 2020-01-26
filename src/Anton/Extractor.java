@@ -11,17 +11,21 @@ public class Extractor {
         String line;
         String[] mas;
 
-        line = extractor.enterNumbers();                // считываем строку
+        try {
+            line = extractor.enterNumbers();              // считываем строку
 
-        mas = line.split("\\s+");  // преобразуем строку в массив строк, разделенных пробелом(неограниченное количество)
+            mas = line.split("\\s+");  // преобразуем строку в массив строк, разделенных пробелом(неограниченное количество)
 
-        int[] numbers = new int[mas.length]; // наши числа
+            int[] numbers = new int[mas.length]; // наши числа
+            for (int i = 0; i < mas.length; i++) {
+                numbers[i] = Integer.parseInt(mas[i]);
+            }
 
-        for (int i = 0; i < mas.length; i++) {
-            numbers[i] = Integer.parseInt(mas[i]);
+            System.out.println(Arrays.toString(numbers));
+        } catch (Exception e) {
+            System.out.println("Ошибка!");
+            e.printStackTrace();
         }
-
-        System.out.println(Arrays.toString(numbers));
     }
 
     private String enterNumbers() {
