@@ -53,10 +53,10 @@ public class Password {
         result = new Password().generatePassword(setForPass, lengthPassword);
 
         System.out.println(setForPass);
-        System.out.println(result);
+        System.out.println("Password = " + result);
     }
 
-    private String generatePassword(List<Character> setPass, int lengthPass) {
+    public String generatePassword(List<Character> setPass, int lengthPass) {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < lengthPass; i++) {
