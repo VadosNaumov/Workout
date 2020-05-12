@@ -41,7 +41,7 @@ p {
     min-height: 100vh;
     padding: 8px 50px;
     background-color: #02f;
-    background-image: url("bg.svg");
+    background-image: url("1/bg.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -89,11 +89,11 @@ p {
 }
 
 .article_first {
-    background-image: url("first_bg.jpg");
+    background-image: url("1/first_bg.jpg");
 }
 
 .article_second {
-    background-image: url("second_bg.jpg");
+    background-image: url("1/second_bg.jpg");
 }
 
 .form {

@@ -1,0 +1,28 @@
+.first{
+    position: relative;
+    width: 2011px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #007765;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.imFirst{
+    position: absolute;
+    left: 40px;
+}
+
+.firstF{
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 1187px;
+    top: 28px;
+}
