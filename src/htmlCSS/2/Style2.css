@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #eee;
+    background: #FFFFFF;
 }
 
 h1 {
@@ -46,22 +46,54 @@ h1 {
 }
 
 .Text1 {
-    max-height: 520px;
-    /*max-width: 100%;*/
-    padding: 0px 0px 20px 0px;
+    height: 619px;
+    padding: 0px 0px 0px 0px;
 }
 .Text1 article p {
     margin: auto;
     font-size: 30px;
     text-align: left;
     vertical-align: middle;
-    width: 70%;
+    width: 1110px;
+}
+.thi {
+    box-sizing: border-box;
+    /*max-width: 1219px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 55px;*/
+    /*padding-right: 55px;*/
 }
 
+.third {
+    background-image: url('images/image-1.png');
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-size: cover;
+    background-position: center center;
+}
+.third p {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+ }
+.igure {
+    margin-top: 0px;
+    clear: right;
+    float: left;
+    font-style: italic;
+    width: 140px;
+    height: 140px;
+}
 .container {
     position: absolute;
     width: 100%;
     margin: 0 auto;
+    background: #EEEEEE;
 }
 
 .members {
